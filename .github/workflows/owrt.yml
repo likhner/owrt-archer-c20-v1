@@ -13,7 +13,7 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get full-upgrade
-        sudo apt install build-essential libncurses5-dev libncursesw5-dev zlib1g-dev gawk git gettext libssl-dev xsltproc rsync wget unzip python
+        sudo apt install build-essential libncurses5-dev libncursesw5-dev zlib1g-dev gawk git gettext libssl-dev xsltproc rsync wget unzip python3
 
     - name: Preparing
       run: |
